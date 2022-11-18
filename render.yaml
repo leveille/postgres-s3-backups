@@ -1,5 +1,5 @@
 services:
-  - name: backup-db
+  - name: clarity-db-backup-task
     type: cron
     schedule: "0 3 * * *"
     region: oregon
